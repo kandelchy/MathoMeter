@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MathoMeter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="photo">this is the main screen of the game</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+
+    
+    <string name="title_activity_about">About</string>
+    <string name="about">MathoMeter v. 1.0 is created by Bassam Kandelchy. This application help elementary student 
+        master the basic arithmetic operations (Multiplication and Division), this is done 
+        as a shooting game to select the correct answer from three available answers </string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="level_title">Difficulty</string>
+    <string name="level_summary">Sets the level of the game to easy, moderate or hard.</string>
+    <string-array name="level_keys">
+        <item >Easy</item>
+        <item >Moderare</item>
+        <item >Hard</item>
+    </string-array>
+    <string-array name="level_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string name="level_default">0</string>
+
+    <string name="type_title">Operation</string>
+    <string name="type_summary">Sets the type of arithmatic operation to multiplication, division or mixed.</string>
+    <string-array name="type_keys">
+        <item >Multiplication (x)</item>
+        <item >Division (÷)</item>
+        <item >Mixed</item>
+    </string-array>
+    <string-array name="type_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string name="type_default">0</string>
+
+
+</resources>

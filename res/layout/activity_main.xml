@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#cfebfd" >
+
+    <TextView
+        android:id="@+id/LeftAnswer"
+        android:layout_width="63dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <TextView
+        android:id="@+id/MiddleAnswer"
+        android:layout_width="63dp"
+        android:layout_height="49dp"
+        android:layout_alignBaseline="@+id/LeftAnswer"
+        android:layout_alignBottom="@+id/LeftAnswer"
+        android:layout_centerHorizontal="true"
+        android:background="#ffdb00"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+    <TextView
+        android:id="@+id/RightAnswer"
+        android:layout_width="63dp"
+        android:layout_height="49dp"
+        android:layout_alignBaseline="@+id/MiddleAnswer"
+        android:layout_alignBottom="@+id/MiddleAnswer"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:background="#00dd2f"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/shooting_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:src="@drawable/sphere1" />
+
+    <TextView
+        android:id="@+id/Equation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/playerScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LeftAnswer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:text="Score: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shooting_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MiddleAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Try Next One" />
+        
+</RelativeLayout>

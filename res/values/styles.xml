@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light" />
+	<style name="DialogTheme" parent="android:Theme.Dialog" />
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+</resources>

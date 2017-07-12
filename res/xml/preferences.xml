@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_level"
+        android:title="@string/level_title"
+        android:summary="@string/level_summary"
+        android:dialogTitle="@string/level_title"
+        android:entries="@array/level_keys"
+        android:entryValues="@array/level_values"
+        android:defaultValue="@string/level_default" />
+    <ListPreference
+        android:key="pref_type"
+        android:title="@string/type_title"
+        android:summary="@string/type_summary"
+        android:dialogTitle="@string/type_title"
+        android:entries="@array/type_keys"
+        android:entryValues="@array/type_values"
+        android:defaultValue="@string/type_default" />    
+</PreferenceScreen>
